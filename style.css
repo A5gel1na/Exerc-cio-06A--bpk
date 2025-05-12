@@ -1,0 +1,52 @@
+.body {
+    padding-left: 240px; 
+    padding-right: 240px;
+    background-color: rgb(212, 236, 212)
+}
+
+.titulo {
+    text-align: right;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.descricao{
+    text-align: center justify;
+    font-size: 20px;
+    color: gray;
+}
+
+.linha {
+    border-top: 4px black solid;
+}
+
+.barra{
+    font-size: 17px;
+    color: yellow;
+}
+
+.opcoes{
+    display: flex;
+    text-align: center;
+    gap: 50px;
+    font-size: 18px;
+}
+
+.linha-2{
+     border-top: 4px black solid;
+}
+
+.defina{
+    color: red;
+    text-align: right;
+    font-size: 26px;
+    background-color: rgba(252, 215, 234, 0.584);
+}
+
+.horizontal{
+    color: rgb(22, 22, 100);
+    text-decoration: underline;
+    text-align: center;
+    font-size: 33px;
+}
