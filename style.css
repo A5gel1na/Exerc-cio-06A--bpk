@@ -1,6 +1,6 @@
 .body {
-    padding-left: 240px; 
-    padding-right: 240px;
+    padding-left: 290px; 
+    padding-right: 290px;
     background-color: rgb(212, 236, 212)
 }
 
@@ -44,9 +44,81 @@
     background-color: rgba(252, 215, 234, 0.584);
 }
 
+.container-horizontal{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .horizontal{
     color: rgb(22, 22, 100);
     text-decoration: underline;
     text-align: center;
     font-size: 33px;
 }
+
+.alinhamento-span{
+    color: rgb(231, 231, 0);
+    font-weight: bold;
+}
+
+.alinhamento-li{
+    font-size: 20px;
+}
+
+.livro-li{
+    font-size: 20px;
+}
+
+.livro-span{
+    color: rgb(14, 133, 14);
+    font-weight: bold;
+}
+
+.posicao-li{
+    font-size: 20px;
+}
+
+.posicao-span{
+    color: rgb(139, 216, 249);
+    font-weight: bold;
+}
+
+.relativa-li{
+    font-size: 20px;
+}
+
+.relativa-span{
+    color: rgb(163, 28, 28);
+    font-weight: bold;
+}
+
+
+.container-vertical{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.vertical{
+    font-size: 33px;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(22, 22, 100);
+}
+
+.container-vertical li{
+    font-size: 20px;
+}
+
+.container-opcoes{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.opcoes-titulo{
+    font-size: 33px;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(22, 22, 100);
+}
+
+.container-opcoes li{
+    font-size: 20px;
+}
+

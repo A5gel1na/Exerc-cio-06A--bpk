@@ -23,27 +23,103 @@
         </i>
         <hr class="linha">
 
-        
+
         <h4 class="barra">
             <mark style="background-color: blue; color: yellow;">Barra de navegação</mark>
         </h4>
 
         <div class="opcoes">
-        <p> <a href="">Horizontal</a></p>
-        <p> <a href="">Vertical</a></p>
-        <p> <a href="">Opções</a></p>
+            <p> <a href="#sec-horizontal">Horizontal</a></p>
+            <p> <a href="#sec-vertical">Vertical</a></p>
+            <p> <a href="#sec-opcoes">Opções</a></p>
         </div>
         <hr class="linha-2">
         <br>
     </div>
 
-    <div>
-        
-       <h2 style="text-align: right;"> <span class="defina">Defina a posição de uma imagem ou objeto em uma ampla gama de posições no documento.</span></h2>
-        <p class="horizontal">Horizontal</p>
-        <p style="text-align: center; font-size: 20px;">Posicione uma imagem horizontalmente em uma página com base no seguinte:</p>
+    <div class="container-horizontal">
+
+        <h2 style="text-align: right;"> <span class="defina">Defina a posição de uma imagem ou objeto em uma ampla gama
+                de posições no documento.</span></h2>
+        <p id="sec-horizontal" class="horizontal">Horizontal</p>
+        <p style="text-align: left; font-size: 20px;">Posicione uma imagem horizontalmente em uma página com base no
+            seguinte:</p>
         <ul>
-            <li> <span class="">Alinhamentos:</span></li>
+            <li class="alinhamento-li"> <span class="alinhamento-span">Alinhamentos</span> Defina uma imagem esquerda,
+                direita ou centralizada em
+                relação às margens Page, Margin, Column, Character, Left, Right, Inside ou
+                Outside. As configurações de página e margem posicionam o objeto em
+                relação à esquerda e à direita da página.</li>
+            <li class="livro-li"><span class="livro-span">Layout do Livro</span> Defina a posição quando o documento
+                será produzido
+                para impressão ou associação. Você pode controlar onde sua imagem será
+                exibida em uma página à esquerda ou à direita. Você pode posicionar
+                imagens em relação ao Interior ou Fora da Página ou Margem</li>
+            <li class="posicao-li"><span class="posicao-span">Posição absoluta</span> Bloqueia sua imagem em uma posição
+                medida específica à direita da página, margem, coluna, caractere ou especificamente para a margem
+                esquerda, direita, interna ou externa. As
+                medidas podem ser especificadas como positivas ou negativas para o
+                controle de posição exato à esquerda ou à direita do ponto de âncora. A
+                imagem permanecerá na mesma posição, independentemente de
+                qualquer outra alteração de formatação feita.</li>
+            <li class="relativa-li"><span class="relativa-span">Posição relativa</span> Defina uma imagem como uma posição relativa à 
+                Margem, Página, Esquerda, Direita, Dentro ou Margens Externas. 
+                Configurações específicas são percentuais. Isso pode ser útil para manter 
+                uma imagem a uma distância definida de uma margem, mesmo que você 
+                planeje margens de alteração.</li>
+        </ul>
+            <img src="layout_-removebg-preview.png" alt="imagem configuração de layout">
+            <p></p>
+    </div>
+
+    <div class="container-vertical">
+        <p id="sec-vertical" class="vertical">Vertical</p>
+        <p style="text-align: left; font-size: 20px;">Posicione uma imagem verticalmente em uma página com base no seguinte:</p>
+        <ul>
+            <li><strong>Alinhamentos</strong> Posicione uma imagem nas margens Superior, 
+                Centralizada, Inferior, Interna ou Externa em relação às margens Página, 
+                Margem, Linha, Superior, Inferior, Interna ou Externa. Página e Margem 
+                posicionam a imagem em relação à parte superior e inferior da página.</li>
+            <li><strong>Posição absoluta</strong> Bloqueia sua imagem em uma posição medida 
+                específica abaixo da página, margem, parágrafo, linha ou 
+                especificamente a margem Superior, Inferior, Interna ou Externa. As 
+                medidas podem ser especificadas como positivas ou negativas para o 
+                controle de posição exata para cima ou para baixo do ponto de âncora. A 
+                imagem permanecerá na mesma posição, independentemente de 
+                qualquer outra alteração de formatação feita.</li>
+            <li><strong>Posição relativa</strong> Defina uma imagem como uma posição relativa à 
+                Margem, Página, Parte Superior, Inferior, Dentro ou Margens Externas. 
+                Isso pode ser útil para manter uma imagem a uma distância definida de 
+                uma margem, mesmo que você planeje margens de alteração.</li>
+        </ul>
+    </div>
+
+    <div class="container-opcoes">
+        <p id="sec-opcoes" class="opcoes-titulo">Opções</p>
+        <p style="font-size: 20px; text-align: left;">Opções adicionais a serem usadas ao posicionar imagens e objetos.</p>
+        <ul>
+            <li><strong>Mover objeto com texto</strong> Move a imagem com o texto com o qual ela 
+                está posicionada. Por exemplo, se uma imagem for posicionada com um 
+                parágrafo e você inserir outro parágrafo antes dela, a imagem será 
+                movida com o parágrafo original. Isso só funciona em imagens moveveis 
+                (não em linha com o encapsulamento de texto) e não está em uma 
+                posição fixa, conforme definido no menu <strong>Encapsular Texto</strong>. Quando 
+                você habilitar essa configuração, ela também definirá <strong>Mover com 
+                Texto</strong> no menu <strong>Texto de Envoltório</strong>. Você também observará que o 
+                alinhamento horizontal e vertical será alterado para posições absolutas 
+                em relação à margem (horizontal) e parágrafo (vertical).</li>
+                <li> <strong>Âncora de bloqueio</strong> Bloqueia uma imagem com um parágrafo. <strong>Mover 
+                    objeto com texto</strong> manterá uma imagem em um parágrafo se você 
+                    mover os parágrafos na página. No entanto, se você selecionar e arrastar 
+                    um parágrafo para outra página, a imagem poderá mudar para a outra 
+                    página. Quando você bloqueia a âncora, se você selecionar um parágrafo 
+                    e uma imagem e mover o parágrafo para outra página, ele permanecerá 
+                    com o texto original.</li>
+                <li> <strong>Permitir sobreposição</strong> Permite que você arraste imagens para se 
+                    sobreporem. As imagens estão em um formato de camada. Para alterar 
+                    qual imagem está na frente ou atrás, outra usa os 
+                    botões <strong>Avançar</strong> e <strong>Enviar Para Trás</strong> no grupo <strong>Organizar</strong> para alterar a 
+                    ordem. Isso afeta todo o documento.</li>
         </ul>
 
     </div>
